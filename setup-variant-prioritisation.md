@@ -1,0 +1,43 @@
+---
+title: 'Setup'
+teaching: 10
+exercises: 2
+---
+<span style="font-size: 1.3em;">Please follow the instructions bellow **before** the scheduled workshop.</span>
+
+## Install R & RStudio
+
+- In this workshop, we will be working through a practical case study where you will be analysing and visualising data. 
+- We will be using **R** and **RStudio** (an easy to use interface for R)
+- Please download and install both prior to the workshop session by following the links bellow.
+
+   - R - https://cran.r-project.org/bin/windows/base/
+   - RStudio: https://docs.posit.co/ide/user/
+   
+## Install R Packages
+::: checklist
+**STEPS**
+
+1. Open RStudio.
+
+2. Find the console.
+
+3. Run the install command bellow and follow prompts. 
+```
+# Install all required packages for Variant Prioritisation
+
+install.packages(c("vcfR", "dplyr", "ggplot2", "tidyr"))
+
+```
+```
+# Verify Iinstallation worked
+
+library(vcfR); library(dplyr); library(ggplot2); library(tidyr)
+
+```
+:::
+
+## Download data
+::: checklist
+
+:::
