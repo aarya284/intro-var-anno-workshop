@@ -54,3 +54,6 @@ renv/sandbox/
 
 # Custom
 renv/
+
+episodes/data/
+*.swp

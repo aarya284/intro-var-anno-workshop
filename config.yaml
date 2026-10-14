@@ -71,6 +71,7 @@ episodes:
 - tools.Rmd
 - resources.Rmd
 - setup-variant-prioritisation.Rmd
+- introduction-to-variant-priorisation.Rmd
 
 # Information for Learners
 learners: 
